@@ -1,0 +1,95 @@
+body {
+  min-width: 500px;
+}
+header {
+  padding: 1rem 2rem;
+  background: bisque;
+  text-align: center;
+  display: flex;
+  justify-content: space-between;
+}
+
+footer {
+  background: bisque;
+  padding: 1rem;
+  text-align: center;
+}
+
+.side-container {
+  width: 30vw;
+  background: blue;
+  color: white;
+  min-height: 50vh;
+  padding: 1rem;
+}
+
+.error-container {
+  width: 70vw;
+  margin: auto;
+  text-align: center;
+}
+
+.main-area {
+  width: 70vw;
+}
+
+.content-section {
+  display: flex;
+  justify-content: stretch;
+  min-height: 50vh;
+}
+
+.category-item {
+  border: 1px solid white;
+  border-radius: 0.4rem;
+  margin: 0.5rem 0;
+  padding: 0.3rem;
+  font-size: 0.8rem;
+  cursor: pointer;
+  text-align: center;
+}
+
+.category-item:hover {
+  background: red;
+}
+
+.side-container h2 {
+  font-size: 1.2rem;
+}
+
+label {
+  text-align: left;
+}
+
+.products-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: stretch;
+  gap: 2rem;
+  margin: 1rem;
+  width: 100%;
+}
+
+.products-container h2 {
+  font-size: 1.2rem;
+  padding: 1rem;
+}
+
+.product-card {
+  width: 30%;
+  padding: 1rem;
+  border-radius: 1rem;
+  border: 1px solid black;
+  margin-bottom: 2rem;
+  font-size: 10px;
+}
+
+.product-card img {
+  width: 80%;
+  margin: auto;
+}
+
+form {
+  margin: auto;
+}

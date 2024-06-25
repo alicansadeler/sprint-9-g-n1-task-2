@@ -1,0 +1,145 @@
+/* LAYOUT */
+.app {
+  height: 100vh;
+  display: flex;
+}
+
+.columns {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  padding: 2rem 2rem 1.5rem;
+  gap: 2rem;
+  overflow: auto;
+}
+
+.column {
+  flex: 1;
+  min-width: 240px;
+  max-width: 360px;
+}
+
+.formColumn {
+  background-color: #fff;
+  flex: 0 0 360px;
+  border-right: 1px solid #f3d4b0;
+  overflow: auto;
+}
+
+.column-title {
+  font-size: 1.5rem;
+  padding-left: 0.75rem;
+}
+/* LAYOUT */
+
+/* TASK */
+.task {
+  padding: 1.5rem;
+  background-color: #fff;
+  border-radius: 5px;
+  line-height: 1.5;
+  margin-top: 1rem;
+  box-shadow: 0 4px 5px 0 rgb(0 0 0 / 10%);
+}
+
+.task h3 {
+  font-size: 18px;
+  color: #c8781a;
+}
+
+.task p {
+  padding: 0.5rem 0 0.75rem;
+  font-size: 14px;
+  color: #444;
+}
+
+.task button {
+  display: block;
+  padding: 8px 12px;
+  margin-left: auto;
+  background-color: #fecc91;
+  box-shadow: 0 4px 5px 0 rgb(0 0 0 / 5%);
+  border-radius: 3px;
+  border: 0;
+  cursor: pointer;
+}
+
+.pill {
+  display: inline-block;
+  padding: 5px 12px;
+  font-size: 14px;
+  border: 1px solid #ccc;
+  margin-right: 4px;
+  margin-bottom: 6px;
+  border-radius: 30px;
+}
+/* TASK */
+
+/* FORM */
+.form-container {
+  padding: 2rem 2rem 1.5rem;
+  border-bottom: 1px solid #ddd;
+}
+
+.form-container h2 {
+  font-size: 1.5rem;
+  padding-bottom: 0.5rem;
+}
+
+.form-line {
+  padding-top: 1rem;
+}
+
+.input-text,
+.input-textarea {
+  display: block;
+  width: 100%;
+  border: 1px solid #ccc;
+  padding: 5px;
+  font-size: 14px;
+  line-height: 1.5;
+  border-radius: 3px;
+}
+
+.input-checkbox {
+  font-size: 14px;
+  padding: 6px 8px 6px 4px;
+  border-radius: 3px;
+  border: 1px solid #ccc;
+  margin-right: 0.5rem;
+  display: inline-flex;
+  align-items: center;
+  cursor: pointer;
+}
+
+.input-label {
+  font-size: 14px;
+  display: block;
+  padding-bottom: 6px;
+}
+
+.input-error {
+  font-size: 12px;
+  padding-top: 3px;
+  color: rgb(230, 43, 43);
+}
+
+.submit-button {
+  display: block;
+  width: 100%;
+  border: 0;
+  padding: 0.75rem 1rem;
+  background-color: #fecc91;
+  color: rgba(0, 0, 0, 0.6);
+  cursor: pointer;
+  border-radius: 3px;
+  box-shadow: 0 4px 5px 0 rgb(0 0 0 / 5%);
+}
+
+.submit-button:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+  box-shadow: none;
+}
+/* FORM */
